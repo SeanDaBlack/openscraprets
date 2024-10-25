@@ -1,0 +1,321 @@
+2024-10-09 18:07:06 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: opensecrets)
+2024-10-09 18:07:06 [scrapy.utils.log] INFO: Versions: lxml 5.3.0.0, libxml2 2.11.7, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.7.0, Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)], pyOpenSSL 24.2.1 (OpenSSL 3.3.2 3 Sep 2024), cryptography 43.0.1, Platform Windows-11-10.0.22631-SP0
+2024-10-09 18:07:06 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-10-09 18:07:06 [asyncio] DEBUG: Using selector: SelectSelector
+2024-10-09 18:07:06 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-10-09 18:07:06 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-10-09 18:07:06 [scrapy.extensions.telnet] INFO: Telnet Password: 74530ec28328aad5
+2024-10-09 18:07:06 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-10-09 18:07:06 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'opensecrets',
+ 'CONCURRENT_REQUESTS': 32,
+ 'COOKIES_ENABLED': False,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'tmp/out.txt',
+ 'LOG_STDOUT': True,
+ 'NEWSPIDER_MODULE': 'opensecrets.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['opensecrets.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/34.0.1847.131 Safari/537.36'}
+2024-10-09 18:07:06 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-10-09 18:07:06 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-10-09 18:07:06 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-10-09 18:07:06 [scrapy.core.engine] INFO: Spider opened
+2024-10-09 18:07:06 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-10-09 18:07:06 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-10-09 18:07:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.opensecrets.org/ballot-measures> (referer: None)
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures#nav%23sticky-nav
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures#main
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures#footer
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures#nav
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/FL/2024/59763382/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/FL/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/FL/2024/59763383/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OH/2024/60299706/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OH/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59668957/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59369261/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/60371730/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WA/2024/59833458/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WA/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MT/2024/60419605/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MT/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/60550653/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/60009271/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/60034841/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/13690359/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WA/2024/59833460/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59975948/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WA/2024/59833459/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NE/2024/60434187/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NE/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MO/2024/60375145/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MO/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NV/2024/59369495/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NV/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WA/2024/60298667/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MT/2024/60434890/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MT/2024/60434891/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NE/2024/60482757/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/60009273/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WI/2024/59772903/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WI/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/60329763/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NE/2024/60434261/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/60453311/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NE/2024/60433914/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59927561/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WI/2024/59772904/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59369263/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MO/2024/60375147/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/59668958/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OR/2024/60299703/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OR/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NY/2024/60030351/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NY/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/KY/2024/59842787/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/KY/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59368848/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AK/2024/59792945/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AK/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/FL/2024/59369393/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ME/2024/59899157/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ME/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AK/2024/59792946/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/60434888/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MD/2024/59369624/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MD/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ND/2024/59843952/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ND/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59369241/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/59927574/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/59927570/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/59369630/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/59369636/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/60434889/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/60550652/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ID/2024/60301933/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ID/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/SD/2024/59927579/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/SD/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59369245/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59351544/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/60434887/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WY/2024/59369621/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WY/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59369243/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NM/2024/59833579/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NM/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ME/2024/59899183/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/IL/2024/59913369/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/IL/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AL/2024/59927597/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AL/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/FL/2024/59833573/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WI/2024/59670034/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NM/2024/59746724/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/59369635/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MA/2024/60301250/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MA/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NV/2024/59369494/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MO/2024/59369622/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/59369656/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AL/2024/59668956/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NV/2024/60300048/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/GA/2024/59843955/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/GA/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/HI/2024/59868005/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/HI/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ME/2024/59899556/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/SD/2024/60008300/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/LA/2024/60008901/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/LA/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/LA/2024/60008902/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MN/2024/59369623/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MN/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/IA/2024/59369626/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/IA/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/59369631/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AR/2024/59369632/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AR/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/59369633/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ME/2024/59746722/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/FL/2024/59369391/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NV/2024/59369493/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NV/2024/59369504/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/RI/2024/59369586/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/RI/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/UT/2024/59369619/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/UT/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MA/2024/60301252/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/SD/2024/60008299/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MO/2024/60008362/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/60009276/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/60040124/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/60009272/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/60009274/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/RI/2024/60030236/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/60040122/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ND/2024/60434892/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OR/2024/60434894/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NM/2024/59833580/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/59843950/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/GA/2024/59843956/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/IL/2024/59913370/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/IL/2024/59913371/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/SC/2024/59913373/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/SC/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/59927573/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CO/2024/59927575/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/GA/2024/59843957/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MA/2024/60301249/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MO/2024/60375144/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/LA/2024/60008904/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/59368850/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OR/2024/59369397/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OR/2024/59369398/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NM/2024/59369581/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ND/2024/59369584/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/SD/2024/59369587/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ND/2024/60434893/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MO/2024/60453312/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OR/2024/59369399/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ND/2024/59369582/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ND/2024/59369583/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/IA/2024/59369627/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WI/2024/59670024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/FL/2024/59833574/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ME/2024/59899555/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/SD/2024/60008301/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CA/2024/60040123/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/SD/2024/60298681/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NV/2024/60300049/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MA/2024/60301248/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NE/2024/60551200/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NE/2024/60551201/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NM/2024/59369580/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/IN/2024/59369395/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/IN/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NV/2024/59369505/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NH/2024/59369508/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NH/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/59825354/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NM/2024/59833582/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OK/2024/59913372/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OK/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MO/2024/60008369/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/LA/2024/60008686/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/60009275/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/RI/2024/60030239/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NC/2024/60299708/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NC/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MA/2024/60301251/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/OK/2024/60008302/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/LA/2024/60008903/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/RI/2024/60030237/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/RI/2024/60030238/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/UT/2024/60434895/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/MO/2024/59927563/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/HI/2024/59927564/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NM/2024/59833581/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/VA/2024/59772902/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/VA/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/SD/2024/59829042/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/59842767/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/KY/2024/59842788/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/ID/2024/59843951/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CT/2024/59369388/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/CT/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/UT/2024/59369618/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/UT/2024/59369620/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WI/2024/59670019/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/NM/2024/59746723/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WV/2024/59830285/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/WV/2024/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AR/2024/60361063/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/AZ/2024/60434886/summary
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/abortion/1/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/marijuana/30/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/health-care/20/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/re-districting/43/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/housing/22/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/local-government/29/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/elections/14/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/environment-natural-resources/16/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/tax-revenue/37/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/education/13/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/criminal-justice/11/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/health-insurance/21/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/labor/27/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/energy/15/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/hunting-wildlife/24/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/legislature/28/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/business-regulation/7/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/employment/44/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/minimum-wage/32/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/lgbtqia-rights-issues/19/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/human-services/23/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/campaign-finance/8/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/gambling/18/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/veterans/42/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/state-government/35/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/government-bonds/6/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/assisted-suicide/5/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/constitutional-convention/9/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/courts/10/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/economic-development/12/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/gun-issues/46/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/immigration/25/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/infrastructure/26/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/seniors/34/2024
+2024-10-09 18:07:07 [stdout] INFO: https://www.opensecrets.org/ballot-measures/issues/transportation/41/2024
+2024-10-09 18:07:24 [stdout] INFO: <tr>
+2024-10-09 18:07:24 [stdout] INFO:                         <th class="">Ballot Measure</th>
+2024-10-09 18:07:24 [stdout] INFO:                         <th class="">Measure Status</th>
+2024-10-09 18:07:24 [stdout] INFO:                         <th class="number-header">Total Raised/Spent Concerning this Ballot Measure</th>
+2024-10-09 18:07:24 [stdout] INFO:                         <th class="">State</th>
+2024-10-09 18:07:24 [stdout] INFO:                     </tr>
+2024-10-09 18:07:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.opensecrets.org/ballot-measures>
+{'amendment': '<tr>\n                        <th class="">Ballot Measure</th>\n                        <th class="">Measure Status</th>\n                        <th class="number-header">Total Raised/Spent Concerning this Ballot Measure</th>\n                        <th class="">State</th>\n                    </tr>', 'link': 'https://www.opensecrets.org/ballot-measures'}
+2024-10-09 18:07:27 [stdout] INFO: <tr>
+2024-10-09 18:07:27 [stdout] INFO: 
+2024-10-09 18:07:27 [stdout] INFO:                         <td class=" color-category yellowish" style="height: 100%; vertical-align: middle;"><a href="/ballot-measures/FL/2024/59763382/summary">AMENDMENT 003 : Marijuana Legalization</a></td>
+2024-10-09 18:07:27 [stdout] INFO: 
+2024-10-09 18:07:27 [stdout] INFO: 
+2024-10-09 18:07:27 [stdout] INFO:                         <td class=" " style="height: 100%; vertical-align: middle;">Pending</td>
+2024-10-09 18:07:27 [stdout] INFO: 
+2024-10-09 18:07:27 [stdout] INFO: 
+2024-10-09 18:07:27 [stdout] INFO:                         <td class="number " style="height: 100%; vertical-align: middle;">$101,093,970</td>
+2024-10-09 18:07:27 [stdout] INFO: 
+2024-10-09 18:07:27 [stdout] INFO: 
+2024-10-09 18:07:27 [stdout] INFO:                         <td class=" " style="height: 100%; vertical-align: middle;"><a href="/ballot-measures/FL/2024/summary">Florida</a></td>
+2024-10-09 18:07:27 [stdout] INFO: 
+2024-10-09 18:07:27 [stdout] INFO:                     </tr>
+2024-10-09 18:07:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.opensecrets.org/ballot-measures>
+{'amendment': '<tr>\n\n                        <td class=" color-category yellowish" style="height: 100%; vertical-align: middle;"><a href="/ballot-measures/FL/2024/59763382/summary">AMENDMENT 003 : Marijuana Legalization</a></td>\n\n\n                        <td class=" " style="height: 100%; vertical-align: middle;">Pending</td>\n\n\n                        <td class="number " style="height: 100%; vertical-align: middle;">$101,093,970</td>\n\n\n                        <td class=" " style="height: 100%; vertical-align: middle;"><a href="/ballot-measures/FL/2024/summary">Florida</a></td>\n\n                    </tr>', 'link': 'https://www.opensecrets.org/ballot-measures'}
